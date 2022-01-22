@@ -1,0 +1,187 @@
+.header{
+  display: flex;
+  width:100%;
+  position: fixed;
+  z-index: 2;
+  height: 4.5rem;
+  align-items: center;
+  border-bottom: 1px #e0dfdf solid;
+  background-color: white;
+  margin: auto;
+}
+.Keep{
+  margin-left: 1rem;
+
+}
+
+.Keep a{
+  text-decoration: none;
+}
+
+.Keep h1{
+  color:#ffc93c;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+.HamburgerMenu{
+  font-size: 35px;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.Search{
+  display: flex;
+  width: 45%;
+  margin-left: 15%;
+  background-color: #f3f3f3;
+  height:70%;
+  align-items: center;
+  border-radius: 1rem;
+  color: white;
+
+}
+
+.Search input {
+ width: 75%;
+ margin: 0 auto;
+ height: 100%;
+ position: relative;
+ font-size: 1rem;
+ border: none;
+ outline: none;
+ background-color: #f3f3f3;
+
+}
+
+
+
+.Search .SearchButton{
+  position: absolute;
+  left:23%;
+
+}
+
+.Search .RightButtons{
+  display: flex;
+  position: absolute;
+  left:62%;
+  /* color: #6d6d6d; */
+}
+
+.PaletteButton{
+  border-radius: 100%;
+}
+
+
+
+.ActionButtons{
+  margin-left: auto;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.ActionButtons > *{
+  font-family: "McLaren", cursive;
+}
+
+.ActionButtons .Logout{
+  border: 1px solid #e0dfdf;
+  padding: 0.5rem 1rem .5rem 1rem;
+  margin-left: 1rem;
+}
+
+button{
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.ActionButtons .Cloud{
+  font-size: 15px;
+}
+
+.ActionButtons .Retry{
+  font-size: 13px;
+  background-color: rgb(167, 80, 80);
+}
+.ActionButtons .Loader{
+  border: 2px solid #f3f3f3;
+  border-top: 2px solid #72acc0;
+  border-radius: 50%;
+  color: red;
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.ActionButtons button:hover,
+.ActionButtons button:active {
+  background-color: rgba(172, 172, 172, 0.247);
+}
+
+.ActionButtons .Retry:hover,
+.ActionButtons .Retry:active {
+  background-color: rgb(209, 113, 113);
+}
+
+.SearchButton button:hover,
+.SearchButton button:active {
+  background-color: rgba(172, 172, 172, 0.247);
+}
+
+.ClearButton button:hover,
+.ClearButton button:active {
+  background-color: rgba(172, 172, 172, 0.247);
+}
+
+.PaletteButton button:hover,
+.PaletteButton button:active {
+  background-color: rgba(172, 172, 172, 0.247);
+}
+
+@media (min-width: 781px) {
+  .HamburgerMenu {
+    display: none;
+  }
+}
+
+@media (max-width: 780px) {
+  .Keep {
+    display: none;
+  }
+
+  .Search {
+    margin-left: 2%;
+    height: 40px;
+  }
+
+  .Search input{
+    width: 30%;
+    margin-left:30%;
+    margin-right: auto;
+  }
+
+  .Search .SearchButton{
+    left:17%
+  }
+
+  .Search .RightButtons{
+    left:41%
+  }
+  .ActionButtons{
+    margin-right: .5rem;
+  }
+}

@@ -1,0 +1,73 @@
+.Form {
+  z-index: 500;
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.35);
+}
+
+
+.InputArea{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top:1rem;
+}
+
+.InputArea input{
+  border: none;
+  outline: none;
+}
+
+.CloseButton{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.CloseButton button{
+  padding: 0.5rem 1rem ;
+}
+
+.CloseButton  button:hover{
+  background-color: rgba(194, 194, 194, 0.15)
+}
+
+  
+@media (max-width: 780px) {
+  .Form {
+    left: 30%;
+  }
+}
+@media (max-width: 700px) {
+  .Form {
+    left: 27%;
+  }
+}
+
+@media (max-width: 600px) {
+  .Form {
+    left: 23%;
+  }
+}
+
+@media (max-width: 533px) {
+  .Form {
+    width: 240px;
+  }
+}
+
+@media (max-width: 420px) {
+  .Form {
+    left: 20%;
+  }
+}
+
+@media (max-width: 370px) {
+  .Form {
+    left: 17%;
+  }
+}

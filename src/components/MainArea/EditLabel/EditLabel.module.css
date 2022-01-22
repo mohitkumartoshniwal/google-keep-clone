@@ -1,0 +1,18 @@
+.InputArea {
+  display: flex;
+  align-items: center;
+}
+
+.InputArea input{
+  border: none;
+  outline: none;
+}
+
+.InputArea button:hover{
+  background-color: rgba(194, 194, 194, 0.15)
+}
+
+.Button{
+  padding: 1rem;
+  
+}

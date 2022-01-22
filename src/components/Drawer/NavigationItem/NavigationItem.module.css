@@ -1,0 +1,29 @@
+.NavigationItem {
+  font-size: 1rem;
+  margin: 1rem 0 1rem 1rem;
+  border-radius: 0% 100% 100% 0%;
+  list-style: none;
+}
+
+
+.NavigationItem a {
+  color: #464646;
+  text-decoration: none;
+  width: 100%;
+  padding: .5rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.NavigationItem a:hover {
+  background-color: rgba(194, 194, 194, 0.15)
+}
+
+.NavigationItem a.active,
+.NavigationItem a.active:hover {
+  background-color: #feefc3
+}
+
+.Title {
+  margin-left: 1rem;
+}

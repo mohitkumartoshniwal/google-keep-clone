@@ -1,0 +1,28 @@
+.List {
+  z-index: 50;
+  background: #fff;
+  border-radius: .1rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 10px rgb(163, 163, 163);
+}
+
+.InputArea {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+
+}
+
+.InputArea input {
+  outline: none;
+  border: none;
+}
+
+.List li {
+  list-style: none;
+}
+.List li:hover {
+  cursor: pointer;
+  background-color: rgba(194, 194, 194, 0.15);
+}

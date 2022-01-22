@@ -1,0 +1,12 @@
+export const SET_MAIN_STATE = "SET_MAIN_STATE"
+export const ADD = "ADD"
+export const EDIT = "EDIT"
+export const DELETE = "DELETE"
+export const RESTORE = "RESTORE"
+export const DELETE_PERMANENTLY = "DELETE_PERMANENTLY"
+export const EMPTY_TRASH = "EMPTY_TRASH"
+export const ADD_NEW_LABEL = "ADD_NEW_LABEL"
+export const EDIT_LABEL = "EDIT_LABEL"
+export const DELETE_LABEL_COMPLETELY = "DELETE_LABEL_COMPLETELY"
+export const ADD_LIST = "ADD_LIST"
+        

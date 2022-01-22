@@ -1,0 +1,196 @@
+
+.Form {
+  position: relative;
+  top: 15vh;
+  left: 30vw;
+  color: #646464cb;
+  width: 30.5rem;
+  margin: 0 auto 1.5rem 1.5rem;
+  background-color: rgba(255, 255, 255, 0.993);
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+.Heading {
+  display: flex;
+  align-items: center;
+}
+
+.Heading input {
+  flex-grow: 1;
+}
+
+.Heading button {
+  margin-right: 1rem;
+
+}
+
+.PinButton {
+  display: inline-block;
+
+}
+
+
+.Content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+}
+
+.Content textarea {
+  flex-grow: 1;
+}
+
+.Content button {
+  margin-right: 1rem;
+}
+
+.Form input,
+.Form textarea {
+  outline: none;
+  border: none;
+  padding: 1rem;
+  resize: none;
+  background: inherit;
+}
+
+.Form button {
+  color: inherit;
+}
+
+.PinButton button:active {
+  color: black;
+}
+
+.PinInactive {
+  color: #adadadcb;
+}
+
+.PinActive {
+  color: black;
+}
+
+.ListItem {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.ListItem input {
+  flex-grow: 1;
+}
+
+.Buttons {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem 0;
+
+}
+
+.Form button:hover,
+.Form button:active {
+  background-color: rgba(172, 172, 172, 0.247);
+}
+
+
+.Labels {
+  display: flex;
+  margin: 0 1rem;
+  gap: .5rem;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.Label {
+  display: flex;
+  background-color: rgba(163, 163, 163, 0.253);
+  border-radius: 10px;
+  padding: 0 .5rem;
+
+}
+
+.Label button {
+  margin-left: .3rem;
+}
+
+.LabelText {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+
+.Form a {
+  text-decoration: none;
+  color: black;
+}
+
+.Hidden {
+  display: none;
+}
+
+
+@media (max-width: 780px) {
+  .Form {
+    left: 17vw;
+    top: 25vh;
+  }
+}
+
+@media (max-width: 640px) {
+  .Form {
+    left: 9vw;
+    width: 75%;
+    top: 30vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .Form {
+    width: 75%;
+  }
+}
+
+.white {
+  background: #ffffff;
+}
+
+.red {
+  background: #ffcfcf;
+}
+
+.orange {
+  background: #ffe3be;
+}
+
+.yellow {
+  background: #fffccb;
+}
+
+.green {
+  background: #edffcd;
+}
+
+.turquoise {
+  background: #d3fff8;
+}
+
+.blue {
+  background: #d5f2ff;
+}
+
+.darkblue {
+  background: #d7ddfd;
+}
+
+.purple {
+  background: #e8dbff;
+}
+
+.pink {
+  background: #fdd8f4;
+}

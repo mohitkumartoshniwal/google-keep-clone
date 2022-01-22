@@ -1,0 +1,210 @@
+.Note {
+    background: #ffffff;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    padding: 10px 0 5px 15px;
+    width: 240px;
+    margin: 16px;
+    float: left;
+    cursor: default;
+    position: relative;
+  }
+  .white {
+    background:#ffffff;
+  }
+  .red {
+    background:#ffcfcf;
+  }
+  
+  .orange {
+    background: #ffe3be;
+  }
+  
+  .yellow {
+    background: #fffccb;
+  }
+  
+  .green {
+    background:#edffcd;
+  }
+  .turquoise {
+    background: #d3fff8;
+  }
+  
+  .blue {
+    background:#d5f2ff;
+  }
+  .darkblue {
+    background:#d7ddfd;
+  }
+  .purple {
+    background:#e8dbff;
+  }
+  
+  .pink {
+    background:#fdd8f4;
+  }
+  
+  
+  .Hide {
+    visibility: hidden;
+  }
+  
+  .Note:hover {
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+  }
+  .Note ul {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  .Note li {
+    list-style: none;
+    margin-right: 15px;
+    position: relative;
+    border-radius: 10px;
+  }
+  
+  .Note p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    color: rgb(46, 46, 46);
+  }
+  
+  .Note .Title {
+    font-weight: 500;
+    font-size: 1em;
+    margin-bottom: 6px;
+    margin-right: 8px;
+    color: rgb(46, 46, 46);
+  }
+  
+  .Note .Labels {
+    margin-top: 3px;
+    width: 100%;
+    padding-right: 10px;
+  }
+  
+  .ButtonArea {
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  
+  .Note .Label {
+    font-size: 0.8em;
+    display: inline-block;
+    margin-right: 10px;
+    background-color: rgba(163, 163, 163, 0.253);
+    border-radius: 10px;
+    min-width: 40px;
+    max-width: 130px;
+    padding: 0 10px;
+    padding-bottom: 5px;
+    padding-top: 3px;
+    position: relative;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-align: center;
+  }
+  
+  .Note button {
+    position: relative;
+    float: right;
+    margin-right: 5px;
+    color: #646464cb;
+    background-color: inherit;
+    border: none;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .Note button:hover,
+  .Note button:active {
+    background-color: rgba(172, 172, 172, 0.247);
+  }
+  
+  .Label button {
+    width: auto;
+    height: auto;
+    background-color: rgba(163, 163, 163, 0);
+    color: black;
+    margin-right: 0;
+  }
+  
+  .Button {
+    display: none;
+    position: absolute;
+    margin-top: 2px;
+    right: 4px;
+  }
+  
+  .Label:hover .Button {
+    display: inline-block;
+  }
+  
+  .Label:hover .LabelText {
+    width: max(80%, calc(100% - 10px));
+  }
+  .Label:hover {
+    text-align: left;
+  }
+  .PinButton {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+  }
+  
+  .PinButton button:active {
+    color: black;
+  }
+  
+  .PinActive {
+    color: black;
+  }
+  
+  .PinInactive {
+    color: #adadadcb;
+  }
+  
+  .LabelText {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 120px;
+  }
+  
+  .RemainingLabels {
+    display: inline-block;
+    background-color: rgba(163, 163, 163, 0.253);
+    padding: 3px 10px;
+    border-radius: 3px;
+  }
+  
+  .Note hr{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 8px;
+  }
+  
+  .Note a {
+    color: black;
+  }
+  
+  @media (max-width: 580px) {
+    .Note {
+      width: 80vw;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .Note {
+      width: 75vw;
+    }
+  }
+  

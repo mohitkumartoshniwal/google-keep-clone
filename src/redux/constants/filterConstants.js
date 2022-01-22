@@ -1,0 +1,2 @@
+export const SET_FILTER_TEXT = "SET_FILTER_TEXT"
+export const SET_FILTER_COLOR = "SET_FILTER_COLOR" 

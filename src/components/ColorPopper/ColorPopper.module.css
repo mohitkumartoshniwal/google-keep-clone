@@ -1,0 +1,21 @@
+.Frame{
+    border: solid 1px rgb(211, 211, 211);
+    display: "flex";
+     width: 103px;
+     background-color: white;
+}
+
+.Button{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    display: inline-block;
+    border: solid 1px rgb(187, 186, 186);
+    margin: .05rem;
+    margin-bottom: 0;
+}
+
+.Button:hover {
+    cursor: pointer;
+    border: solid 2px gray;
+} 
